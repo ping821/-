@@ -14,7 +14,7 @@ public class Race {
         public show(){
             t1=new JButton("tortoise");
             t2=new JButton("rabbit");
-            l1=new JButton("жу╣Ц");
+            l1=new JButton("end");
             l=new JPanel();
             l.setLayout(null);
             add(l);
@@ -92,7 +92,7 @@ public class Race {
                 public void run(){
                     for(int i=0;i<52;i++){
                         //c.l.removeAll();
-                        JButton u =new JButton("жу╣Ц");
+                        JButton u =new JButton("end");
                         JButton p=new JButton("tortoise");
                         JButton v=new JButton("rabbit");
                         c.l.add(v);
